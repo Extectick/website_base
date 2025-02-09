@@ -2889,7 +2889,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var officeSlider = new Swiper('.office__slider', {
     speed: 800,
     centeredSlides: true,
-    slidesPerView: 3,
+    slidesPerView: "auto",
     spaceBetween: 0,
     autoHeight: true,
     loop: true,
@@ -3092,8 +3092,8 @@ document.addEventListener("DOMContentLoaded", function () {
   }); //слайдеры
 
   var swiper = new Swiper(".base-program__swiper", {
-    slidesPerView: 2,
-    spaceBetween: 30,
+    slidesPerView: "auto",
+    spaceBetween: 40,
     autoHeight: false
   }); //аккардион
 

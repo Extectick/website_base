@@ -519,6 +519,7 @@ button, .link {
 
   .container {
     padding: 0 5rem;
+    justify-items: center; 
   }
 }
 @media only screen and (max-width: 778px) {
@@ -533,6 +534,7 @@ button, .link {
 
   .container {
     padding: 0 2rem;
+    justify-items: center; 
   }
 
   button, .link {
@@ -1075,6 +1077,7 @@ button, .link {
   height: 100%;
   padding: 3.8rem 3rem;
   overflow: hidden;
+
 }
 .base-usefulness__subtitle {
   font-weight: 800;
@@ -1098,6 +1101,7 @@ button, .link {
 }
 .base-program {
   padding: 12.3rem 0 12rem;
+
 }
 .base-program__title {
   text-align: center;
@@ -1105,12 +1109,20 @@ button, .link {
 }
 .base-program__swiper {
   overflow: visible;
+
+
 }
 .base-program__slide {
   height: auto;
+  width: 50%;
+  align-items: center;
+  justify-self: center;
+
+  
 }
 .base-program__slide #supplierBase2 .base-program-body__item:nth-child(11) {
   display: none;
+  
 }
 @media only screen and (max-width: 998px) {
   .base-program__slide #supplierBase2 .base-program-body__item:nth-child(6), .base-program__slide #supplierBase2 .base-program-body__item:nth-child(7), .base-program__slide #supplierBase2 .base-program-body__item:nth-child(8), .base-program__slide #supplierBase2 .base-program-body__item:nth-child(9), .base-program__slide #supplierBase2 .base-program-body__item:nth-child(10) {
@@ -1128,6 +1140,7 @@ button, .link {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 .base-program-head {
   background-image: url("../images/base-program-back.png");
@@ -1275,8 +1288,12 @@ button, .link {
 }
 .base-questions__row {
   display: grid;
-  grid-template-columns: 1fr 68.7rem;
+  /* grid-template-columns: 1fr 68.7rem; */
   position: relative;
+  
+  
+  
+  
 }
 .base-questions__caption {
   font-weight: 500;
